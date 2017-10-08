@@ -1,4 +1,4 @@
-package constuctorinvocation;
+package serializationdemo;
 
 import java.io.Serializable;
 
@@ -7,6 +7,7 @@ public class Robo implements Serializable{
 	private String name;
 	private double speed;
 	private int mmy;
+	
 	public String getName() {
 		return name;
 	}
@@ -26,9 +27,7 @@ public class Robo implements Serializable{
 		this.mmy = mmy;
 	}
 	
-	public Robo(String name, int mmy) {
-		this("vasee", 0.0, 256);
-	}
+	
 	public Robo(String name, double speed, int mmy) {
 		super();
 		this.name = name;
@@ -36,18 +35,26 @@ public class Robo implements Serializable{
 		this.mmy = mmy;
 	}
 	
+	public Robo(String name, int mmy) {
+		super();
+		this.name = name;
+		this.mmy = mmy;
+		
+		
+	}
+	
 	@Override
 	public String toString() {
-		String display = "Robo name= "+name+", memory = "+mmy+", speed = "+speed;
-		return display;
+		return "Robo [name=" + name + ", speed=" + speed + ", mmy=" + mmy + "]";
 	}
+	
 	
 	public boolean equals(Object obj) {
 
 		if(obj instanceof Robo){
 
 			Robo robo = (Robo)obj;		
-			if((this.getMmy()==(robo.mmy)) & (this.getSpeed() == (robo.speed)) & (this.name.equals(robo.name)))
+			if((this.getMmy()==(robo.mmy)) & (this.name.equals(robo.name)))
 				return true;				
 		}
 		return false;

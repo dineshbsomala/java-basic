@@ -1,10 +1,11 @@
 package exception;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class bankexample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("SBI bank");
@@ -18,7 +19,7 @@ public class bankexample {
 				try {
 					int amnt = sc.nextInt();
 					System.out.println("Amount withdrawed: "+amnt);
-				}catch(Exception ex1) {
+				}catch(InputMismatchException ex1) {
 					System.out.println("Please enter a valid number");
 				}
 
@@ -31,8 +32,10 @@ public class bankexample {
 		}catch(Exception ex2) {
 			System.out.println("please enter correct password");	
 		}
+		finally {
+			System.out.println("program runnned successfully");
 
-		System.out.println("program runnned successfully");
+		}
 		sc.close();
 
 	}
