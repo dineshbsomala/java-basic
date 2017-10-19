@@ -3,7 +3,7 @@ package exception;
 public class MultiCatch {
 	public static void main(String[] args)  {
 		try {
-			int value = m1(5,0);
+			int value = m1(5,2);
 			int arr[] = {1,2,3,4}; 
 			System.out.println("value : "+value);
 

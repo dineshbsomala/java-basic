@@ -1,5 +1,6 @@
 package thirdassignment;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class College {
@@ -33,6 +34,11 @@ public class College {
 
 	public void setStudnt(Students[] studnt) {
 		this.studnt = studnt;
+	}
+
+	@Override
+	public String toString() {
+		return "College [studnt=" + Arrays.toString(studnt) + "]";
 	}
 
 }

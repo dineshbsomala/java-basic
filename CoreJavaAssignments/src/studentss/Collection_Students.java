@@ -12,9 +12,10 @@ public class Collection_Students extends Student{
 
 		Student s1 = new Student("dinesh", 8.2, "EEE");
 		Student s2 = new Student("Komali", 8.6, "ECE");
-		Student s3 = new Student("Sravani", 8.0, "CSE");
-		Student s4 = new Student("Greeshma", 7.8, "CSE");
-		Student s5 = new Student("Reshma", 7.8, "EEE");
+		Student s3 = new Student("sravani", 8.0, "CSE");
+		Student s4 = new Student("greeshma", 7.8, "CSE");
+		Student s5 = new Student("Reshma", 9.0, "EEE");
+		Student s6 = new Student("Naresh", 9.1, "CSE");
 
 		List<Student> slist = new ArrayList<>();
 		slist.add(s5);
@@ -22,15 +23,17 @@ public class Collection_Students extends Student{
 		slist.add(s3);
 		slist.add(s2);
 		slist.add(s1);
-
+		slist.add(s6);
+		//slist.forEach(j ->System.out.println(j));
 
 		Student_Manager sdm = new Student_Manager(slist);
 
-		LinkedList<String> perudisp = sdm.names();
+		//LinkedList<String> perudisp = sdm.names();
 
-		perudisp.forEach(i -> System.out.println(i));
+		//perudisp.forEach(i -> System.out.println(i));
 
 		String top = sdm.toprank();
+		sdm.top3rankers();
 		System.out.println("Top ranker is: "+top);
 
 	}

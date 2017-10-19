@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HibernateAllJars"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/hibernate-annotations-3.5.4-Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/hibernate-commons-annotations-3.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/hibernate-core-3.5.4-Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/Hibernate_SDB/Annotation_jar_files/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="E:/Java Raghu Classes/JDBC Jars/sqljdbc_6.0/enu/jre8/sqljdbc42.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

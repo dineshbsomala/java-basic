@@ -1,7 +1,5 @@
 package classobjects_hasarelation;
 
-import hasarelation.Lenovo;
-
 public class Laptops {
 
 	private double lprice;

@@ -34,8 +34,6 @@ public class TestThirdAss {
 
 	private static void displayname(College rmd2, Students[] stu, Scanner sc2) {
 
-
-		// TODO Auto-generated method stub
 		rmd2.setStudnt(stu);
 		System.out.println("enter the student id ");
 		int studentid = sc2.nextInt();
@@ -44,7 +42,7 @@ public class TestThirdAss {
 	}
 
 	private static void detailsdisplay(Students[] stu) {
-		// TODO Auto-generated method stub
+		
 		for(int i=0; i<stu.length; i++) {
 			stu[i].showdetails();
 			System.out.println();
