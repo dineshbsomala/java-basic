@@ -22,6 +22,7 @@ public class CarDaoImpl implements CarDao {
 			cartrans = carsess.beginTransaction();
 
 			carsess.save(car);
+			
 			cartrans.commit();
 
 			return true;
